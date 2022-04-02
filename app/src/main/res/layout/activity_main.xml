@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:background="@drawable/gradient_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="291dp"
+            android:layout_height="303dp"
+            android:layout_marginTop="4dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/bmsitlogo" />
+
+        <TextView
+            android:id="@+id/usersignin"
+            android:layout_width="194dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="User Sign  in"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <EditText
+            android:id="@+id/loginusn"
+            android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_width="352dp"
+            android:background="@drawable/custom_input"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:maxLength="10"
+            android:layout_below="@id/usersignin"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="USN"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_baseline_arrow_forward_ios_24" />
+        <EditText
+            android:id="@+id/userpassword"
+            android:layout_width="352dp"
+            android:layout_height="56dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/loginusn"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:background="@drawable/custom_input"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_lock_24" />
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/userpassword">
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/rememberme"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shadowColor="#FFFFFF"
+                android:text="Remember me"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginbtn"
+            android:background="@drawable/custom_button"
+            android:layout_width="352dp"
+            android:textColor="@color/white"
+            android:layout_height="56dp"
+            android:elevation="100dp"
+            android:textSize="24dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/userpassword"
+            android:text="@string/log_in"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+        <TextView
+            android:id="@+id/userregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:layout_below="@id/loginbtn"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginbtn"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="25dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userregister"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="260dp"
+            android:text="ADMIN Login?"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/notanadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forgotpassword"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="40dp"
+            android:text="USER Login?"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+
+        ></RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

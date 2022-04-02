@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.byb">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BYB.NoActionBar"
+        tools:replace="android:theme">
+        <activity android:name=".Admin.SearchProductActivity"></activity>
+        <activity android:name=".User_Order_View" />
+        <activity android:name=".Admin.AdminChatActivity" />
+        <activity android:name=".Admin.ChatHomeAdmin" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatHomeActivity" />
+        <activity
+            android:name=".splash_screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".user_c_cycle_textbook_maintain" />
+        <activity android:name=".user_notebook_maintain" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".Admin.admin_printout_document" />
+        <activity android:name=".Admin.admin_announcements" />
+        <activity android:name=".user_announcements" />
+        <activity android:name=".Admin.admin_printout_photo" />
+        <activity android:name=".user_print_upload_document_link" />
+        <activity android:name=".user_printout_upload_photo" />
+        <activity android:name=".user_personal_printout" />
+        <activity android:name=".user_sem_8_textbook" />
+        <activity android:name=".user_sem_7_textbook" />
+        <activity android:name=".user_sem_6_textbook" />
+        <activity android:name=".user_sem_5_textbook" />
+        <activity android:name=".user_sem_4_textbook" />
+        <activity android:name=".user_sem_3_texrtbook" />
+        <activity android:name=".user_p_cycle_textbook" />
+        <activity android:name=".user_c_cycle_textbook" />
+        <activity android:name=".Admin.AdminMaintainProductsActivity" />
+        <activity android:name=".Admin.AdminUserProductsActivity" />
+        <activity android:name=".Admin.AdminNewOrdersActivity" />
+        <activity android:name=".user_confirm_final_order" />
+        <activity
+            android:name=".CartActivity"
+            android:theme="@style/Theme.BYB.NoActionBar" />
+        <activity android:name=".user_product_detail_activity" />
+        <activity android:name=".Admin.AdminTextbookCategory" />
+        <activity android:name=".Admin.AdminAddNewTextbookActivity" />
+        <activity
+            android:name=".home_activity"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".user_record" />
+        <activity android:name=".user_bluebooks" />
+        <activity android:name=".user_files" />
+        <activity android:name=".user_sheets" />
+        <activity android:name=".user_accesssories" />
+        <activity android:name=".user__notebooks" />
+        <activity android:name=".user_sem_category" />
+        <activity android:name=".user_stationary_category" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".Admin.AdminAddActivity" />
+        <activity android:name=".Admin.AdminAddNewProductActivity" />
+        <activity android:name=".Admin.AdminStationaryActivity" />
+        <activity android:name=".Admin.AdminCategoryActivity" />
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

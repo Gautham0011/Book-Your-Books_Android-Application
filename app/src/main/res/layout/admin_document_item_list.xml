@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/purple_500">
+
+        <TextView
+            android:id="@+id/document_link_usn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="USN"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/document_number_of_copies"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="viewEnd"
+            android:text="Copies"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"/>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/document_link"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Link"-->
+        <!--            android:textColor="@android:color/white"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:layout_below="@+id/document_number_of_copies"-->
+        <!--            android:gravity="center"-->
+        <!--            android:layout_marginTop="10dp"/>-->
+
+        <TextView
+            android:id="@+id/document_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/document_number_of_copies"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/document_link_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/document_name"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/custom_roundbutton"
+            android:id="@+id/document_download"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_below="@id/document_link_description"
+            android:layout_centerHorizontal="true"
+            android:text="DOWNLOAD" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

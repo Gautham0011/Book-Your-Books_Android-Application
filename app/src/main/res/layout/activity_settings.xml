@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.BYB.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_500"
+            app:popupTheme="@style/Theme.BYB.PopupOverlay">
+      
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/settings_close_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Close"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    />
+                <TextView
+                    android:id="@+id/settings_update_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Update"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="300dp"
+                    android:layout_alignParentTop="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settings_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/app_bar_settings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+    <TextView
+        android:id="@+id/settings_profile_image_change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/settings_profile_image"
+        android:text="Change Profile"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+
+        android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:id="@+id/settings_fullname"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_below="@id/settings_profile_image_change_btn"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="6dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingTop="10dp"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward_ios_24" />
+    <EditText
+
+        android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:id="@+id/settings_userbranch"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/settings_fullname"
+        android:ems="10"
+        android:hint="Branch"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+    <EditText
+
+        android:drawableStart="@drawable/ic_baseline_phone_iphone_24"
+        android:id="@+id/settings_usermobileno"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settings_userbranch"
+        android:ems="10"
+        android:maxLength="10"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_phone_iphone_24" />
+
+    <EditText
+
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:id="@+id/settings_useremail"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settings_usermobileno"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_email_24" />
+    <EditText
+
+        android:drawableStart="@drawable/ic_address"
+        android:id="@+id/settings_sec"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settings_useremail"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/ic_address" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/security_question_button"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/settings_sec"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:ems="10"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Set Security Questions"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+</RelativeLayout>

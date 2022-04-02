@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatHomeActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_chat"
+        android:layout_height="40dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:background="@color/design_default_color_primary"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:id="@+id/logOut"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/logout"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_chat"
+        android:layout_marginTop="5dp"
+        android:id="@+id/recycler_view_chat" />
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_login_imagee"
+    tools:context=".Admin.AdminAddActivity">
+
+
+    <EditText
+        android:id="@+id/admin_welcome"
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="                       WELCOME ADMIN !!"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="50dp"
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:id="@+id/addannouncement"
+        android:layout_below="@id/admin_welcome"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_marginTop="50dp"
+        android:layout_width="352dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="update announcement"
+        app:layout_constraintBottom_toTopOf="@+id/addbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:id="@+id/addbtn"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_height="wrap_content"
+        android:width="352dp"
+        android:text="Add Items"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:id="@+id/printout_photo"
+        android:layout_width="352dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="printout photos"
+        app:layout_constraintBottom_toTopOf="@+id/printout_doc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addbtn"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+    android:id="@+id/loginbtnaddact"
+    android:background="@drawable/custom_button"
+    android:layout_width="wrap_content"
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:id="@+id/printout_doc"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:text="printout Docs"
+        android:textSize="15dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/admin_check_new_order"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="CHECK NEW ORDERS"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/printout_doc"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/maintain_btn"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="MAINTAIN PRODUCTS"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_check_new_order"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:id="@+id/messagewithuser_btn"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:textSize="15dp"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        app:layout_constraintTop_toBottomOf="@+id/maintain_btn"
+        app:layout_constraintVertical_bias="0.174"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtnaddact"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_buttonn"
+        android:elevation="100dp"
+        android:text="Log out"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messagewithuser_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/admin_welcomepage"
+        android:layout_width="282dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toTopOf="@+id/addannouncement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_welcome"
+        app:srcCompat="@drawable/byb_icon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

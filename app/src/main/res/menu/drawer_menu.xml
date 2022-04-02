@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon_"
+            android:title="Search"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/nav_cart"
+            android:title="Cart"
+            android:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/orders"
+            android:title="Orders"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_user_prints"
+            android:icon="@drawable/ic_baseline_local_printshop_24"
+            android:title="User Personal Prints"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/category"
+            android:title="Chat With Shopkeeper"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"
+            android:iconTint="@color/white"/>
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/nav_annnouncements"
+            android:icon="@drawable/ic_baseline_event_note_24"
+            android:title="Announcements">
+        </item>
+
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share">
+        </item>
+        <item android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="About Us">
+        </item>
+    </group>
+
+</menu>
