@@ -29,28 +29,27 @@ It has complete information regarding the project and its Implementations.
 # Sample App Screenshots
 
 
-<img src="https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg" width="175" height="315">
-
-![Screenshot_2021-07-28-18-07-11-753_com example byb](https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg | width=100)  
+<img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f" width="185" height="330">  
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-04-58-924_com example byb](https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg =250x250)
+<img src="https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg" width="185" height="330">  
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-05-58-444_com example byb](https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg" width="185" height="300">  
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-04-391_com example byb](https://user-images.githubusercontent.com/85282195/161383540-e19ac70a-9f4a-4e68-80de-4e391d188bcf.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383540-e19ac70a-9f4a-4e68-80de-4e391d188bcf.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-10-047_com example byb](https://user-images.githubusercontent.com/85282195/161383541-9f0b159b-5f2a-4a77-8f3c-d7848db008c5.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383541-9f0b159b-5f2a-4a77-8f3c-d7848db008c5.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-17-650_com example byb](https://user-images.githubusercontent.com/85282195/161383543-e1be5e44-f675-4da6-a62a-25a1ef12f731.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383543-e1be5e44-f675-4da6-a62a-25a1ef12f731.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-26-776_com example byb](https://user-images.githubusercontent.com/85282195/161383545-4a80c8e4-cfeb-460c-b2a3-7ec015f67554.jpg)-----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-34-398_com example byb](https://user-images.githubusercontent.com/85282195/161383546-519e6aa1-40e6-467e-b97d-462ada5c54e3.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383545-4a80c8e4-cfeb-460c-b2a3-7ec015f67554.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-42-537_com example byb](https://user-images.githubusercontent.com/85282195/161383547-2efc2cab-ea2c-4119-9e33-eeaaa9f829b4.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383546-519e6aa1-40e6-467e-b97d-462ada5c54e3.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-06-57-936_com example byb](https://user-images.githubusercontent.com/85282195/161383548-1268b5c1-26c1-481f-88ed-99d4487925fb.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383547-2efc2cab-ea2c-4119-9e33-eeaaa9f829b4.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-07-08-885_com example byb](https://user-images.githubusercontent.com/85282195/161383549-934978df-4b2b-4ace-a727-3010d28c3c6a.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383548-1268b5c1-26c1-481f-88ed-99d4487925fb.jpg" width="185" height="330">
+-----------------------------------------------------------------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/85282195/161383549-934978df-4b2b-4ace-a727-3010d28c3c6a.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -80,14 +79,15 @@ printout.
 --> To reduce student time wasted waiting at stationary store.
 
 
-![Screenshot_2021-07-28-18-09-08-664_com example byb](https://user-images.githubusercontent.com/85282195/161383572-097bb8ff-96c7-4774-86eb-0b42e3de0bd3.jpg =50x100)
+<img src="https://user-images.githubusercontent.com/85282195/161383572-097bb8ff-96c7-4774-86eb-0b42e3de0bd3.jpg =50x185" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-09-13-615_com example byb](https://user-images.githubusercontent.com/85282195/161383574-b5248b8b-9efd-479d-b544-6e9de1bf271e.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383574-b5248b8b-9efd-479d-b544-6e9de1bf271e.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-08-09-190_com example byb](https://user-images.githubusercontent.com/85282195/161383575-34dfbcf3-b93e-444b-9741-64b056f660c8.jpg)
-![Screenshot_2021-07-28-18-08-36-265_com example byb](https://user-images.githubusercontent.com/85282195/161383576-b9504997-4d43-4256-8d4e-0e1c91136a06.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383575-34dfbcf3-b93e-444b-9741-64b056f660c8.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-08-43-572_com example byb](https://user-images.githubusercontent.com/85282195/161383577-62387a37-c128-4f38-889c-b298209fba2e.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383576-b9504997-4d43-4256-8d4e-0e1c91136a06.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
-![Screenshot_2021-07-28-18-08-46-745_com example byb](https://user-images.githubusercontent.com/85282195/161383579-aa3cf223-cfbb-4a55-9b77-5db68ff3e3e9.jpg)
+<img src="https://user-images.githubusercontent.com/85282195/161383577-62387a37-c128-4f38-889c-b298209fba2e.jpg" width="185" height="330">
+-----------------------------------------------------------------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/85282195/161383579-aa3cf223-cfbb-4a55-9b77-5db68ff3e3e9.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
