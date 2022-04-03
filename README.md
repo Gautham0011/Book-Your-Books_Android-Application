@@ -77,7 +77,7 @@ printout.
 --> To reduce student time wasted waiting at stationary store.
 
 
-![Screenshot_2021-07-28-18-09-08-664_com example byb](https://user-images.githubusercontent.com/85282195/161383572-097bb8ff-96c7-4774-86eb-0b42e3de0bd3.jpg)
+![Screenshot_2021-07-28-18-09-08-664_com example byb](https://user-images.githubusercontent.com/85282195/161383572-097bb8ff-96c7-4774-86eb-0b42e3de0bd3.jpg =50x100)
 -----------------------------------------------------------------------------------------------------------------------------
 ![Screenshot_2021-07-28-18-09-13-615_com example byb](https://user-images.githubusercontent.com/85282195/161383574-b5248b8b-9efd-479d-b544-6e9de1bf271e.jpg)
 -----------------------------------------------------------------------------------------------------------------------------
