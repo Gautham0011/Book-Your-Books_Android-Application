@@ -29,11 +29,11 @@ It has complete information regarding the project and its Implementations.
 # Sample App Screenshots
 
 
-<img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg" width="185" height="330">  || <img src="https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg" width="185" height="330"> 
+<img src="https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg" width="185" height="330">        <img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg" width="185" height="330">          <img src="https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg" width="185" height="300">
 -----------------------------------------------------------------------------------------------------------------------------
  
 -----------------------------------------------------------------------------------------------------------------------------
-<img src="https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg" width="185" height="300">  
+  
 -----------------------------------------------------------------------------------------------------------------------------
 <img src="https://user-images.githubusercontent.com/85282195/161383540-e19ac70a-9f4a-4e68-80de-4e391d188bcf.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
