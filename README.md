@@ -28,9 +28,9 @@ It has complete information regarding the project and its Implementations.
 
 # Sample App Screenshots
 
-![Screenshot_2021-07-28-18-07-11-753_com example byb](https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg)  ![Screenshot_2021-07-28-18-04-58-924_com example byb](https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg)
+![Screenshot_2021-07-28-18-07-11-753_com example byb](https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg)  
 -----------------------------------------------------------------------------------------------------------------------------
-
+![Screenshot_2021-07-28-18-04-58-924_com example byb](https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg =250x250)
 -----------------------------------------------------------------------------------------------------------------------------
 ![Screenshot_2021-07-28-18-05-58-444_com example byb](https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg)
 -----------------------------------------------------------------------------------------------------------------------------
