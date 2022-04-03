@@ -29,7 +29,7 @@ It has complete information regarding the project and its Implementations.
 # Sample App Screenshots
 
 
-<img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f" width="185" height="330">  
+<img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg" width="185" height="330">  
 -----------------------------------------------------------------------------------------------------------------------------
 <img src="https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg" width="185" height="330">  
 -----------------------------------------------------------------------------------------------------------------------------
