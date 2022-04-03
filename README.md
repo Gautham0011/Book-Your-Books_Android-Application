@@ -29,9 +29,9 @@ It has complete information regarding the project and its Implementations.
 # Sample App Screenshots
 
 
-<img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg" width="185" height="330">  
+<img src="https://user-images.githubusercontent.com/85282195/161383539-f51a55d0-cdd3-4dc2-ba33-f9c5957b220f.jpg" width="185" height="330">  || <img src="https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg" width="185" height="330"> 
 -----------------------------------------------------------------------------------------------------------------------------
-<img src="https://user-images.githubusercontent.com/85282195/161383537-80930a72-861b-4ccb-ae88-0d2668454c98.jpg" width="185" height="330">  
+ 
 -----------------------------------------------------------------------------------------------------------------------------
 <img src="https://user-images.githubusercontent.com/85282195/161383534-298d6b64-fa13-4cde-b5dd-a56256d38804.jpg" width="185" height="300">  
 -----------------------------------------------------------------------------------------------------------------------------
@@ -79,7 +79,7 @@ printout.
 --> To reduce student time wasted waiting at stationary store.
 
 
-<img src="https://user-images.githubusercontent.com/85282195/161383572-097bb8ff-96c7-4774-86eb-0b42e3de0bd3.jpg =50x185" width="185" height="330">
+<img src="https://user-images.githubusercontent.com/85282195/161383572-097bb8ff-96c7-4774-86eb-0b42e3de0bd3.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
 <img src="https://user-images.githubusercontent.com/85282195/161383574-b5248b8b-9efd-479d-b544-6e9de1bf271e.jpg" width="185" height="330">
 -----------------------------------------------------------------------------------------------------------------------------
